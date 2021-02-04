@@ -1,2 +1,3 @@
-# cypress-netlify-image
-cypress/base:12 with netlify-cli for use by GitLab CI/CD
+# nuxt-shopify-ci
+
+A docker image for running GitLab CI for Nuxt, Netlify, and Shopify
