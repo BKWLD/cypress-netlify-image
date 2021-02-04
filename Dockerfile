@@ -9,4 +9,4 @@ RUN curl -s https://raw.githubusercontent.com/Shopify/themekit/master/scripts/in
 # - netlify-cli - For deploying branch deploys to Netlify
 # - serve - For running local webserver from statically generated site
 # - start-server-and-test - For coordinating `cypress` with `serve`
-RUN yarn global add cypress netlify-cli serve start-server-and-test
+RUN npm install -g cypress netlify-cli serve start-server-and-test
